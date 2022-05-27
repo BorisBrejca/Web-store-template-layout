@@ -1,0 +1,31 @@
+/* Rectangle */
+
+.rectangle {
+  margin-top: 50px;
+}
+
+.rectangle__background {
+  background-image: url(../img/main-collection-group/Rectangle.jpg);
+  height: 188px;
+}
+
+.rectangle__flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 68px;
+}
+
+.rectangle__title {
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 100%;
+
+  color: #ffffff;
+}
+
+/* Rectangle 2 */
+.rectangle__background1 {
+  background-image: url(../img/main-collection-group/Rectangle1.png);
+  height: 188px;
+}

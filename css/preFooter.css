@@ -1,0 +1,33 @@
+/* PreFoooter Form */
+.prefooter__wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.prefooter {
+    margin: 100px 0;
+    text-align: center;
+  }
+  .prefooter__container {
+    max-width: 840px;
+    margin: 0 auto;
+  }
+  .prefooter__title {
+    margin-bottom: 20px;
+  
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 56px;
+  
+    color: #000000;
+  }
+  .prefooter__sub-title {
+    max-width: 630px;
+    margin: 0 auto 30px;
+  
+    font-family: "Noto Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+  
+    color: #999999;
+  }

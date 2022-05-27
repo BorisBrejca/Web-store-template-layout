@@ -1,0 +1,168 @@
+@media screen and (max-width: 1415px) {
+  .container {
+    max-width: 1000px;
+  }
+  .pre__flex-box{
+      justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .container {
+    max-width: 850px;
+  }
+
+  .header__title {
+    font-size: 57px;
+  }
+
+  .header__subtitle {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .container {
+    max-width: 650px;
+  }
+
+  .header__nav-text {
+    margin-top: 80px;
+  }
+  .rectangle__flex {
+    align-items: center;
+  }
+
+  .rectangle__title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .nav__row {
+    max-width: 600px;
+  }
+
+  .header__nav-text {
+    margin-top: 20px;
+  }
+
+  .header__title {
+    font-size: 46px;
+  }
+
+  .header__nav-text {
+    max-width: 460px;
+  }
+
+  .header__subtitle {
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .nav__logo {
+    margin-right: 30px;
+  }
+
+  .nav__nav-items {
+    display: none;
+  }
+
+  .nav__row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+  }
+
+  .rectangle__title {
+    font-size: 15px;
+  }
+  .rectangle__flex {
+    margin: 0 40px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .header__nav-text {
+    margin-left: 30px;
+  }
+
+  .nav__row {
+    max-width: 500px;
+    justify-content: space-evenly;
+  }
+
+  .rectangle__flex {
+    justify-content: space-around;
+  }
+
+  .pre__flex-item{ 
+      margin: 0 30px;
+  }
+
+  .pre__item-text{
+      margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .header__nav-text {
+    margin-left: 20px;
+  }
+
+  .nav__cart {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    margin-top: 10px;
+  }
+  .header__subtitle {
+    margin-top: 200px;
+  }
+  .header__title {
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .header__subtitle {
+    margin-right: 40px;
+  }
+
+  .rectangle__flex {
+    flex-direction: column;
+    padding-top: 30px;
+  }
+  .rectangle__title {
+    margin-bottom: 30px;
+    font-size: 27px;
+  }
+  .pre__item-title{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .form__footer {
+    flex-direction: column;
+    gap: 20px;
+  }
+.input__form::placeholder{
+    text-align: center;
+}
+}
+
+
+@media screen and (max-width: 380px) {
+  .collection__img {
+    width: 180px;
+  }
+
+  .rectangle__title {
+    font-size: 20px;
+  }
+
+}

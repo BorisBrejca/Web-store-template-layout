@@ -1,0 +1,40 @@
+/* Form */
+.form__footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .input__form {
+    padding-left: 11px;
+    width: 229px;
+    height: 42px;
+  
+    background: #ffffff;
+    border: 1px solid #f72464;
+    border-radius: 4px;
+  
+    font-family: "Noto Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+  
+    color: #999999;
+  }
+  
+  .form__footer > * + * {
+    margin-left: 10px;
+  }
+  
+  .btn {
+    height: 42px;
+    cursor: pointer;
+    border: none;
+  
+    font-family: "Noto Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+  
+    color: #ffffff;
+  }

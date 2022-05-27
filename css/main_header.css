@@ -1,0 +1,113 @@
+.main {
+    margin-top: 60px;
+  }
+
+.main__wrapper {
+  text-align: center;
+}
+
+.main__collection-title {
+  margin: 0 auto 40px;
+  margin-bottom: 40px;
+}
+
+.main__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 56px;
+  text-align: center;
+  color: #000000;
+}
+
+.main__subtitle {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+.collection__flex-group {
+  display: flex;
+  column-gap: 30px;
+  flex-wrap: wrap;
+  row-gap: 22px;
+  justify-content: center;
+}
+
+.collection__title {
+  margin: 6px 0 0 0;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #000000;
+}
+
+.collection__subtitle {
+  justify-content: center;
+  display: flex;
+}
+
+.count-1 {
+  margin: 0;
+  margin-right: 10px;
+
+  font-family: "Noto Sans";
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  text-transform: uppercase;
+  color: #999999;
+}
+
+.count-2 {
+  margin: 0;
+
+  font-family: "Noto Sans";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+
+  text-transform: uppercase;
+  color: #f72464;
+}
+
+.main__collection-footer {
+  margin-top: 49px;
+  text-align: center;
+}
+
+.button-collection {
+  padding: 9px 40px 12px;
+  background: #ffffff;
+  border: 1px solid #f72464;
+  border-radius: 4px;
+
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #777777;
+  transition: 0.2s linear;
+}
+
+.button-collection:hover {
+  background-color: #f72464;
+  color: #ffffff;
+  box-shadow: 1px 5px 15px #f72464;
+}
